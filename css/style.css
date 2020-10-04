@@ -22,3 +22,48 @@
   .topnav a.active {
     border-bottom: 3px solid red;
   }
+
+  
+  
+ .social-bar{
+   top: 30%;
+   position:fixed;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ transform: translate(-99px,0);
+ text-align: right;
+  }
+
+ .social-bar a{
+   font-size: 20px;
+  font-weight: 600;
+ text-decoration: none;
+ margin: 5px;
+ background: white;
+ border-radius: 100px;
+ padding: 5px;
+ transition-property: transform;
+
+  }
+
+  .social-bar a:hover
+  {
+    transform: translate(90px,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  .social i{
+    margin-left: 10px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+  }
+  .footer-icons
+  {
+    background-color:white ; border-radius: 50%;
+    padding: 15px;
+    
+  }
+
+  
