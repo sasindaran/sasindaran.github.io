@@ -97,57 +97,80 @@
   </section>
 
   <!-- Screenshots Section -->
-  <section id="screenshots" class="container">
-    <div class="section-title">
-      <h2>Screenshots</h2>
+<!-- Screenshots Section -->
+<section id="screenshots" class="container">
+  <div class="section-title">
+    <h2>Screenshots</h2>
+  </div>
+  <div class="row">
+    <div class="col-md-4 screenshot-wrapper">
+      <img src="screenshot1.png" class="img-fluid screenshot" alt="Semester Selection">
+      <p class="text-center">Semester Selection Option</p>
     </div>
-    <div class="row">
-      <div class="col-md-4">
-        <img src="screenshot1.png" class="img-fluid" alt="Semester Selection">
-        <p class="text-center">Semester Selection Option</p>
-      </div>
-      <div class="col-md-4">
-        <img src="screenshot2.png" class="img-fluid" alt="Home Module">
-        <p class="text-center">Home Module</p>
-      </div>
-      <div class="col-md-4">
-        <img src="screenshot7.png" class="img-fluid" alt="Tooltip Notification System">
-        <p class="text-center">Tooltip Notification System</p>
-      </div>
+    <div class="col-md-4 screenshot-wrapper">
+      <img src="screenshot2.png" class="img-fluid screenshot" alt="Home Module">
+      <p class="text-center">Home Module</p>
     </div>
-    <div class="row">
-      <div class="col-md-4">
-        <img src="screenshot5.png" class="img-fluid" alt="Schedule Module">
-        <p class="text-center">Schedule Module</p>
-      </div>
-      <div class="col-md-4">
-        <img src="screenshot9.png" class="img-fluid" alt="Course Selection Module">
-        <p class="text-center">Workload Module</p>
-      </div>
-      <div class="col-md-4">
-        <img src="screenshot4.png" class="img-fluid" alt="Reset and Truncate Module">
-        <p class="text-center">Reset and Truncate Module</p>
-      </div>
+    <div class="col-md-4 screenshot-wrapper">
+      <img src="screenshot7.png" class="img-fluid screenshot" alt="Tooltip Notification System">
+      <p class="text-center">Tooltip Notification System</p>
     </div>
-    <div class="row">
-      <div class="col-md-4">
-        <img src="screenshot4i.png" class="img-fluid" alt="Edit Module">
-        <p class="text-center">Edit Module</p>
-      </div>
-      
-      <div class="col-md-4">
-        <img src="screenshot3.png" class="img-fluid" alt="Staff Management">
-        <p class="text-center">Staff Management Module</p>
-      </div>
-      <div class="col-md-4">
-        <img src="screenshot6.png" class="img-fluid" alt="Export Module">
-        <p class="text-center">Export Module</p>
-      </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 screenshot-wrapper">
+      <img src="screenshot5.png" class="img-fluid screenshot" alt="Schedule Module">
+      <p class="text-center">Schedule Module</p>
     </div>
-  </section>
+    <div class="col-md-4 screenshot-wrapper">
+      <img src="screenshot9.png" class="img-fluid screenshot" alt="Workload Module">
+      <p class="text-center">Workload Module</p>
+    </div>
+    <div class="col-md-4 screenshot-wrapper">
+      <img src="screenshot4.png" class="img-fluid screenshot" alt="Reset and Truncate Module">
+      <p class="text-center">Reset and Truncate Module</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 screenshot-wrapper">
+      <img src="screenshot4i.png" class="img-fluid screenshot" alt="Edit Module">
+      <p class="text-center">Edit Module</p>
+    </div>
+    <div class="col-md-4 screenshot-wrapper">
+      <img src="screenshot3.png" class="img-fluid screenshot" alt="Staff Management">
+      <p class="text-center">Staff Management Module</p>
+    </div>
+    <div class="col-md-4 screenshot-wrapper">
+      <img src="screenshot6.png" class="img-fluid screenshot" alt="Export Module">
+      <p class="text-center">Export Module</p>
+    </div>
+  </div>
+</section>
+
+<!-- Custom CSS for hover effect -->
+<style>
+  .screenshot-wrapper {
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+
+  .screenshot {
+    width: 100%;
+    transition: transform 0.3s ease, z-index 0s 0.3s;
+  }
+
+  .screenshot-wrapper:hover .screenshot {
+    transform: scale(1.5); /* Enlarge image on hover */
+    z-index: 1;
+    transition: transform 0.3s ease, z-index 0s;
+  }
+
+  .screenshot-wrapper:hover {
+    z-index: 10;
+  }
+</style>
  <section id="download-report" style="margin-top: -150px;"class="container">
   <div class="section-title">
-    <h2>Download Project Report</h2>
+    <h2>To Download Complete Project Report</h2>
   </div>
   <div class="text-center" style="margin-top: -20px;">
     <a href="https://drive.google.com/file/d/1106qnoViq2OOR9NpLBTkyQTG2rLUPov8/view?usp=drive_link" class="btn btn-primary btn-lg" download>
