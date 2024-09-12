@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Timetable Pro</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* General Styling */
+    body { font-family: 'Arial', sans-serif; background-color: #f4f4f4; }
+    .hero-section { background: #343a40; padding: 100px 0; text-align: center; color: #fff; }
+    .hero-title { font-size: 3.5rem; color: #ffffff; }
+    .section-title { margin: 50px 0; text-align: center; font-size: 2rem; color: #343a40; }
+    .container { padding: 50px 0; }
+
+    /* Hover Effects */
+    .module-box { position: relative; padding: 20px; text-align: center; transition: transform 0.3s ease; }
+    .module-box:hover { transform: translateY(-10px); background-color: #e9ecef; }
+    .module-box img { display: none; width: 100%; height: auto; margin-bottom: 20px; }
+    .module-box:hover img { display: block; }
+    
+    /* Image Styling for Hover */
+    .module-box:hover .module-title { font-size: 1.5rem; color: #007bff; }
+
+    /* Custom Styling for Overview */
+    .overview-section p { font-size: 1.2rem; line-height: 1.6; color: #343a40; text-align: justify; }
+    .overview-highlight { font-size: 1.3rem; color: #007bff; font-weight: bold; }
+
+    /* Footer */
+    footer { background-color: #343a40; color: white; padding: 20px 0; text-align: center; }
+  </style>
+</head>
+<body>
+
+ <!-- Hero Section -->
+ <section class="hero-section">
+    <h1 class="hero-title">Timetable Pro</h1>
+    <p class="lead">Efficient and automated academic scheduling system with real-time conflict detection.</p>
+  </section>
+
+  <!-- Overview Section -->
+  <section id="overview" class="container">
+    <div class="section-title">
+      <h2>Project Overview</h2>
+    </div>
+    <p>This project introduces a dynamic scheduling system for academic institutions, featuring advanced functionalities like timeslot allocation, overlap detection, and workload management. It modernizes traditional scheduling by automating timetable creation, ensuring a seamless academic environment.</p>
+  </section>
+
+
+ <!-- Modules Section -->
+<section id="modules" class="container">
+    <div class="section-title">
+      <h2>Key Modules</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Home Module</h3>
+        <p>Central interface for managing academic schedules. Allows adding and managing classes, semesters, and predefined subjects.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Staff Management Module</h3>
+        <p>Handles staff administration tasks, such as adding or removing staff and managing their schedules.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Edit Module</h3>
+        <p>Enables selecting a class and adding/removing subjects. Also facilitates assigning and managing staff for specific subjects.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Schedule Module</h3>
+        <p>Allocates class and lab schedules, ensuring no conflicts using the Overlap Detection System (ODS). Also manages tooltip alerts for overload warnings.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Export Module</h3>
+        <p>Generates and exports timetables in user-friendly formats, including PDFs and Excel files for sharing among staff and students.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Tooltip Notification System</h3>
+        <p>Provides real-time alerts for potential scheduling conflicts, such as overloaded staff or continuous teaching periods, to ensure balanced workloads.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Staff Details Module</h3>
+        <p>Add or delete staff members from the system, and manage their schedules and assigned subjects.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Workload Module</h3>
+        <p>Helps to distribute the workload evenly among staff, avoiding overload by monitoring the number of hours assigned to each faculty member.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Reset and Truncate Module</h3>
+        <p>Offers options to reset or truncate all tables and unallocate all assigned staff, ensuring flexibility for major adjustments or new semesters.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots Section -->
+  <section id="screenshots" class="container">
+    <div class="section-title">
+      <h2>Screenshots</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="screenshot1.png" class="img-fluid" alt="Semester Selection">
+        <p class="text-center">Semester Selection Option</p>
+      </div>
+      <div class="col-md-4">
+        <img src="screenshot2.png" class="img-fluid" alt="Home Module">
+        <p class="text-center">Home Module</p>
+      </div>
+      <div class="col-md-4">
+        <img src="screenshot7.png" class="img-fluid" alt="Tooltip Notification System">
+        <p class="text-center">Tooltip Notification System</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="screenshot5.png" class="img-fluid" alt="Schedule Module">
+        <p class="text-center">Schedule Module</p>
+      </div>
+      <div class="col-md-4">
+        <img src="screenshot9.png" class="img-fluid" alt="Course Selection Module">
+        <p class="text-center">Workload Module</p>
+      </div>
+      <div class="col-md-4">
+        <img src="screenshot4.png" class="img-fluid" alt="Reset and Truncate Module">
+        <p class="text-center">Reset and Truncate Module</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="screenshot4i.png" class="img-fluid" alt="Edit Module">
+        <p class="text-center">Edit Module</p>
+      </div>
+      
+      <div class="col-md-4">
+        <img src="screenshot3.png" class="img-fluid" alt="Staff Management">
+        <p class="text-center">Staff Management Module</p>
+      </div>
+      <div class="col-md-4">
+        <img src="screenshot6.png" class="img-fluid" alt="Export Module">
+        <p class="text-center">Export Module</p>
+      </div>
+    </div>
+  </section>
+ <section id="download-report" style="margin-top: -150px;"class="container">
+  <div class="section-title">
+    <h2>Download Project Report</h2>
+  </div>
+  <div class="text-center" style="margin-top: -20px;">
+    <a href="https://drive.google.com/file/d/1106qnoViq2OOR9NpLBTkyQTG2rLUPov8/view?usp=drive_link" class="btn btn-primary btn-lg" download>
+      Click Me
+    </a>
+  </div>
+</section>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Timetable Pro. All rights reserved.</p>
+  </footer>
+  
+  <!-- Bootstrap and jQuery Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
